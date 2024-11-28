@@ -13,3 +13,10 @@ dependencies = [
     "python-decouple>=3.8",
     "sqlalchemy>=2.0.36",
 ]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests"
+]
