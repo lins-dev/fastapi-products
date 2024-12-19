@@ -1,5 +1,6 @@
 import pytest
 from app.categories.schemas import Category
+from app.database.models import Category as CategoryModel
 
 def test_category_schema():
     result = Category(
